@@ -1,7 +1,8 @@
 # Test FrontEnd SUPER-MELI
 
-Antes de todo instalar el proyecto
+Antes de todo instalar el proyecto y ejecutarlo
 * npm install
+* npm run start
 
 Este proyecto es una prueba técnica de backend para MELI.
 
