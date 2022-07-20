@@ -1,0 +1,111 @@
+@import 'vars';
+header {
+	width: 100%;
+	font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;	
+	background-color: #FFE600;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.nav-logo {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 60px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-image: url("../assets/icons/Logo_ML.png");
+}
+
+.nav-search {
+	border-collapse: collapse;
+	font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+	
+	box-sizing: border-box;
+	padding: 8px 1px;
+	height: 56px;
+	position: relative;
+	left: 35px;
+	max-width: 900px;
+	min-width: 600px;
+	right: 94px;
+	overflow: auto;
+}
+
+.nav-search-input {
+	border-collapse: collapse;
+	user-select: none;
+	font-size: 18px;
+	width: 100%;
+	margin: 0;
+	font-family: inherit;
+	border: none;
+	position: relative;
+	box-sizing: border-box;
+	z-index: 915;
+	padding: 7px 60px 9px 15px;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	height: 39px;
+	outline-width: 0;
+}
+
+.nav-search-btn {
+	
+	border-collapse: collapse;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	position: absolute;
+	padding: 0;
+	background: none;
+	border: none;
+	font-size: 22px;
+	color: #666;
+	line-height: 1em;
+	z-index: 920;
+	border-radius: 0 2px 2px 0;
+	width: 46px;
+	background-color: #EEEEEE;
+	top: 8px;
+	right: 1px;
+	left: auto;
+	background-image: none;
+	height: 39px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+
+.nav-icon-search {
+	background-image: url("../assets/icons/ic_Search.png");
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 30px;
+	background-repeat: no-repeat;
+	border-collapse: collapse;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	color: #666;
+	cursor: pointer;
+	font-style: normal;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 21px;
+	font-family: 'navigation';
+}
+
+
+@media (max-width: 640px) {
+	.menu {
+		display: block;
+	}
+
+	.navbar-left ul {
+		display: none;
+	}
+
+	.navbar-email {
+		display: none;
+	}
+}

@@ -1,0 +1,23 @@
+@import 'vars';
+
+.ProductList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, max-width);
+	gap: 0px;
+	place-content: center;
+	background-color: #EEEEEE;
+	padding-top: 16px;
+	padding-bottom: 60px;
+	
+}
+.Categories{
+	margin-bottom: 16px;
+	font-size: 14px;
+	color:  #999999;
+}
+
+@media (max-width: 640px) {
+	.ProductList {
+		grid-template-columns: repeat(auto-fill, 840px);
+	}
+}

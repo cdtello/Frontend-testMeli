@@ -1,0 +1,14 @@
+	@import 'vars';
+	
+	.ProductDetail {
+		display: grid;
+		place-content: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	
+	@media (max-width: 640px) {
+		.ProductDetail {
+			width: 100%;
+		}
+	}
